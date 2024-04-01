@@ -1,0 +1,157 @@
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 10%;
+}
+
+.plogo {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 10%;
+}
+
+.article{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bg {
+    background-color: rgb(159, 159, 235);
+}
+.zag{
+    background-color: rgb(189, 189, 218);
+    text-transform: uppercase;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    color: rgb(212, 93, 93);
+}
+
+h3{
+    text-align: center;
+}
+.ul1{
+    text-align: center;
+    size: 20px;
+}
+
+p {
+    font-size: large;
+}
+
+body {
+    font-style: inherit;
+}
+
+.nav {
+    font-size: larger;
+    font-style: inherit;
+    color: #000000;
+}
+
+.textpage {
+    background-color: rgb(237, 221, 243);
+    text-align: center;
+}
+
+.cp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cat2 {
+    width: 50%;
+    height: 50%;
+}
+
+.llogo {
+    text-align: right;
+    padding-right: 10%;
+    font-size: medium;
+}
+
+.btn {
+    align-items: center;
+    display: inline-block;
+}
+
+.btn:hover {
+    color: rgb(237, 221, 243);
+}
+.zag1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-style: inherit;
+    size: 50px;
+}
+
+.pass1{
+    width: 460px;
+    height: 460px;
+}
+.pass2{
+    width: 40%;
+    height: 40%;
+}
+
+.cateat3{
+    width: 640px;
+    height: 420px;
+}
+
+.cateat2{
+    width: 640px;
+    height: 420px;
+}
+
+.hw{
+    width: 640px;
+    height: 420px;
+}
+
+.cateat1{
+    width: 460px;
+    height: 400px;
+}
+
+.cateat4{
+    width: 640px;
+
+}
